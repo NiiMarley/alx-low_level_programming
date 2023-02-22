@@ -2,16 +2,20 @@
 /**
  * 2-print_alphabet_x10.c
  * nii
- * */
+*/
 
 void print_alphabet_x10(void)
-{	int count = 0;
+{
 	char ch;
-	while count <= 9
-	for (ch = 'a'; ch <= 'z'; ch++)
+	int i;
+
+	for (int i = 0; i <= 9; i++)
 	{
-		putchar(ch);
-	}
+		for (ch = 'a'; ch <= 'z'; ch++)
+		{
+			putchar(ch);
+		}
 	putchar('\n');
-	return (0);
+	}
+return (0);
 }
