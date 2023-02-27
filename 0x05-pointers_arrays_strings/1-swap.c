@@ -3,8 +3,8 @@
 
 /**
  * swap_int - check the code
- *@a - int
- *@b - int
+ *@a: first int
+ *@b: second int
  * Return: Always 0.
  */
 void swap_int(int *a, int *b)
